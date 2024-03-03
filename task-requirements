@@ -1,0 +1,12 @@
+Deployment of EKS cluster with three node group of size t3.small,t3.medium,t3.xlarge along with volumes/storage 20gb,60gb,100gb 
+simultaneously in us-east-1 zone and Install helm in the cluster.  (use bash script)
+
+Using helm packages: Deploy SonarQube with its dependency java in node-1, Deploy Dependency-track with its dependency java in node-2,
+Deploy Defect dojo with its dependency python3.
+
+Create RBAC ( service- account) and ingress and auto scalar to the cluster of node group.
+
+Use Lambda function to start and stop the cluster daily.(bash script) 
+
+
+Note: Only bash script each step uses
